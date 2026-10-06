@@ -13,7 +13,7 @@ OpenAI Parameter Golf 挑战赛：在 16MB 大小限制内训练最好的语言�
 - 新纪录需比当前 SOTA 好 ≥ 0.005 nats，p < 0.01
 
 ## 本地环境
-- 仓库：直接 clone 自 `openai/parameter-golf`（origin 指向官方，不是 fork，无推送权限）
+- 仓库：个人 fork `thejiajun/parameter-golf`（origin，用个人 GitHub 账号推送）；官方仓库为 upstream，同步用 `git pull upstream main`
 - 机器：Mac M4 Max
 - Python 虚拟环境：`.venv/`
 - 数据集：`data/datasets/fineweb10B_sp1024/`（已下载 1 shard）
